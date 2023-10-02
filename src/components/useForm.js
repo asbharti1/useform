@@ -57,7 +57,7 @@ const MyForm = () => {
         },
         (submittedData) => {
             console.log('Submitted data:', submittedData);
-            // Perform any submission logic here....Sgit 
+            // Perform any submission logic here
         }
     );
 
