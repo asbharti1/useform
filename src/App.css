@@ -27,6 +27,41 @@
 .App-link {
   color: #61dafb;
 }
+.offcanvas {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Adjust this value to control the initial position */
+  width: 300px;
+  height: 100%;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease;
+}
+
+.offcanvas.open {
+  left: 0;
+}
+
+.offcanvas-content {
+  padding: 20px !important;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.progress-bar-container {
+  margin: 20px 0 !important;
+}
+
 
 @keyframes App-logo-spin {
   from {
